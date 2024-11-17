@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Josefin Sans, sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8dfd3;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: rgba(130, 111, 140, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 16px 35px;
+  background: linear-gradient(94.66deg, #4499d9 17.46%, #7367be 87.77%);
+  border-radius: 25px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container {
+  width: 100%;
+  max-width: 1350px;
+  margin-inline: auto;
+  padding-inline: 50px;
+}
+
+#header {
+  padding-block: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header nav a {
+  color: rgba(68, 99, 129, 1);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#main {
+  padding-block: 40px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+.main-text h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgba(68, 99, 129, 1);
+}
+.main-text h1 {
+  color: rgba(235, 131, 130, 1);
+  font-size: 65px;
+  font-weight: 700;
+  width: 450px;
+  line-height: 75px;
+}
+.main-text h1 span {
+  color: rgba(68, 99, 129, 1);
+  font-size: 58px;
+  font-weight: 500;
+}
+.main-text p {
+  width: 520px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  padding: 15px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 420px;
+}
+.rating-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100px;
+}
+.rating-text p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+}
+.rating-text h1 {
+  font-size: 10px;
+  font-weight: 700;
+  color: rgba(235, 131, 130, 1);
+}
+.rating-star {
+  display: flex;
+  gap: 3px;
+}
+
+.rating-star h2 {
+  font-size: 8px;
+  font-weight: 500;
+  color: rgba(68, 99, 129, 1);
+}
+
+.rating1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  padding: 15px;
+  border-radius: 10px;
+  position: absolute;
+  right: -50px;
+  bottom: -80px;
+}
+
+#about {
+  padding-block: 40px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 30px;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.about-text h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgba(68, 99, 129, 1);
+}
+.about-text h1 {
+  color: rgba(235, 131, 130, 1);
+  font-size: 65px;
+  font-weight: 700;
+  width: 650px;
+  line-height: 75px;
+}
+.about-text p {
+  width: 520px;
+}
+
+.about img {
+  width: 550px;
+}
+
+#plan {
+  padding-block: 40px;
+}
+.plan-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.plan-title p {
+  font-size: 23px;
+  font-weight: 500;
+}
+.plan-title h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgba(235, 131, 130, 1);
+}
+
+.plan {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.plan .box {
+  width: 350px;
+  padding: 40px 40px;
+  background: rgba(251, 218, 207, 1);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 30px;
+}
+
+.plan .box:hover {
+  background: rgba(9, 20, 60, 0.705);
+  p,
+  li {
+    color: rgba(255, 255, 255, 1);
+  }
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+.plan .box p {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(68, 99, 129, 1);
+}
+.plan .box h1 {
+  color: rgba(235, 131, 130, 1);
+  font-size: 48px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.plan .box h1 span {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.plan .box li {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 45px;
+  color: rgba(130, 111, 140, 1);
+  display: flex;
+  gap: 10px;
+}
+
+.plan .box li::before {
+  content: url(../image/check.svg);
+}
+
+#footer {
+  border-top: 1px solid rgba(129, 111, 140, 1);
+  padding-block: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background: rgba(252, 216, 203, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
